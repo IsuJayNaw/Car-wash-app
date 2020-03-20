@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Car Wash</string>
+    <string name="profilepassword">Password:*******</string>
+    <string name="aamobile_no_94718993249">Mobile No: +94718993249</string>
+    <string name="eeeemail_amal22_gmail_com">Email: amal22@gmail.com</string>
+    <string name="nnnname_amal_perera">Name: Amal perera</string>
+    <string name="ssssave_change">Save change</string>
+    <string name="ppprofile">Profile</string>
+    <string name="ffffroget_password">Froget Password</string>
+    <string name="we_send_your_new_paaaaassword_to_your_mobile">We send your new password to your mobile</string>
+    <string name="anyquestion">Any question ?</string>
+    <string name="cu">contact us 0112620620</string>
+    <string name="oko">OK</string>
+    <string name="todoo">TODO</string>
+    <string name="todooo">TODO</string>
+    <string name="todop">TODO</string>
+    <string name="todojtj">TODO</string>
+    <string name="todoa">TODO</string>
+    <string name="drgdr">TODO</string>
+    <string name="gmtm">TODO</string>
+    <string name="ull">TODO</string>
+    <string name="dsvsvs">TODO</string>
+    <string name="bdb">TODO</string>
+    <string name="adedwd">TODO</string>
+    <string name="www">WELCOME</string>
+    <string name="signuphere">SIgnup Here</string>
 </resources>
