@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ui2"
     tools:context=".DeleteService">
 
 
@@ -24,7 +25,7 @@
         android:id="@+id/btnservicedDelete"
         android:layout_width="243dp"
         android:layout_height="55dp"
-        android:background="#E10C0C"
+        android:background="#C80303"
         android:paddingLeft="60px"
         android:paddingRight="60px"
         android:text="Delete Service"

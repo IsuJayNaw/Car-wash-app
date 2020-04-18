@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/car8"
+    android:background="@drawable/ui2"
     tools:context=".Formpreview">
-
 
 
     <TextView
@@ -14,7 +13,7 @@
         android:layout_width="252dp"
         android:layout_height="49dp"
         android:text="Services Form"
-        android:textColor="#2196F3"
+        android:textColor="#094270"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,12 +26,12 @@
 
     <Button
         android:id="@+id/btnAddData"
-        android:layout_width="329dp"
-        android:layout_height="46dp"
-        android:background="#1E88E5"
+        android:layout_width="321dp"
+        android:layout_height="56dp"
+        android:background="#033867"
         android:text="ADD Service"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +62,7 @@
                 android:layout_marginLeft="20px"
                 android:layout_weight="1"
                 android:text="Mobile :"
-                android:textColor="#2196F3" />
+                android:textColor="#094270" />
 
             <EditText
                 android:id="@+id/userMobile"
@@ -88,7 +87,7 @@
                 android:layout_marginLeft="20px"
                 android:layout_weight="1"
                 android:text="Car No : "
-                android:textColor="#2196F3" />
+                android:textColor="#094270" />
 
             <EditText
                 android:id="@+id/userCarNo"
@@ -113,7 +112,7 @@
                 android:layout_marginLeft="20px"
                 android:layout_weight="1"
                 android:text="Car Model :"
-                android:textColor="#2196F3" />
+                android:textColor="#094270" />
 
             <EditText
                 android:id="@+id/userCarModel"
@@ -138,7 +137,7 @@
                 android:layout_marginLeft="20px"
                 android:layout_weight="1"
                 android:text="Service :"
-                android:textColor="#2196F3" />
+                android:textColor="#094270" />
 
             <EditText
                 android:id="@+id/userService"

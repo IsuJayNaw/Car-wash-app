@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ui3"
     tools:context=".EditServiceDetails">
 
 
@@ -13,7 +14,7 @@
         android:layout_height="50dp"
         android:text="Edit your details"
         android:textAllCaps="true"
-        android:textColor="#2196F3"
+        android:textColor="#094270"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,7 +48,7 @@
                 android:layout_marginLeft="20px"
                 android:layout_weight="1"
                 android:text="  ID :"
-                android:textColor="#2196F3" />
+                android:textColor="#094270" />
 
             <EditText
                 android:id="@+id/serviceId"
@@ -72,7 +73,7 @@
                 android:layout_marginLeft="20px"
                 android:layout_weight="1"
                 android:text="Mobile :"
-                android:textColor="#2196F3" />
+                android:textColor="#094270" />
 
             <EditText
                 android:id="@+id/userMobile"
@@ -97,7 +98,7 @@
                 android:layout_marginLeft="20px"
                 android:layout_weight="1"
                 android:text="Car No : "
-                android:textColor="#2196F3" />
+                android:textColor="#094270" />
 
             <EditText
                 android:id="@+id/userCarNo"
@@ -122,7 +123,7 @@
                 android:layout_marginLeft="20px"
                 android:layout_weight="1"
                 android:text="Car Model :"
-                android:textColor="#2196F3" />
+                android:textColor="#094270" />
 
             <EditText
                 android:id="@+id/userCarModel"
@@ -147,7 +148,7 @@
                 android:layout_marginLeft="20px"
                 android:layout_weight="1"
                 android:text="Service :"
-                android:textColor="#2196F3" />
+                android:textColor="#094270" />
 
             <EditText
                 android:id="@+id/userService"
@@ -167,7 +168,7 @@
         android:id="@+id/btnUpdate"
         android:layout_width="234dp"
         android:layout_height="45dp"
-        android:background="#2ACF70"
+        android:background="#0F9347"
         android:text="update"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
