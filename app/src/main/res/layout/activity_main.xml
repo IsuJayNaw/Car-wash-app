@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/bg2"
+
     >
 
     <TextView
@@ -36,18 +36,17 @@
         app:layout_constraintVertical_bias="0.616">
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/btnbasic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#039BE5"
             android:text="Basic Package"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
-            android:onClick="Onclick"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/btnvip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20px"
@@ -56,7 +55,6 @@
             android:textAllCaps="true"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
-            android:onClick="Onclick"
             android:textStyle="bold" />
     </LinearLayout>
 
