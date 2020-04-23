@@ -15,6 +15,8 @@ public class Options extends AppCompatActivity {
     Button btnAdd,btnview,btnEdit,btnDelete,btnBook;
     DatabaseHelper  myviewDb;
 
+    //logingit
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
