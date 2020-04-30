@@ -17,4 +17,6 @@
     <string name="cvvno">CVV</string>
     <string name="abtn">ADD</string>
     <string name="ubtn">UPDATE</string>
+    <string name="paybtn">PAY</string>
+    <string name="paybtn1">PAY NOW</string>
 </resources>
