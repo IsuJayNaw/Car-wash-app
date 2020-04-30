@@ -12,14 +12,14 @@ public class Pay extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pay);
 
-        Button pay= (Button) findViewById(R.id.chariya);
+        Button pay= (Button) findViewById(R.id.paybtn);
 
         pay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent editIntent = new Intent(MainActivity.this, Payment.class);
+                Intent editIntent = new Intent(Pay.this, Payment.class);
                 startActivity(editIntent);
             }
         });
