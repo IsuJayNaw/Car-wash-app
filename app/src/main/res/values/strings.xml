@@ -9,4 +9,12 @@
     <string name="edcv">CVV</string>
     <string name="edpbtn">EDIT</string>
     <string name="pedbtn">DELETE</string>
+    <string name="pays">Payment Details</string>
+    <string name="pays2">We accepted</string>
+    <string name="holdername">Card Holder\'s Name</string>
+    <string name="crdno">Card Number</string>
+    <string name="exdate">Expire Date</string>
+    <string name="cvvno">CVV</string>
+    <string name="abtn">ADD</string>
+    <string name="ubtn">UPDATE</string>
 </resources>
