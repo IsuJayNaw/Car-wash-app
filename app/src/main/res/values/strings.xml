@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Promotion</string>
+    <string name="header" translatable="false">Create Your Account</string>
+    <string name="fNameInput" translatable="false">First Name</string>
+    <string name="fName" translatable="false">First Name</string>
+    <string name="lName" translatable="false">Last Name</string>
+    <string name="lNameInput" translatable="false">Last Name</string>
+    <string name="Email" translatable="false">Email</string>
+    <string name="EmailInput" translatable="false">abc@gmail.com</string>
+    <string name="Phone" translatable="false">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="city" translatable="false">City</string>
+    <string name="cityInput" translatable="false">city</string>
+    <string name="emailInput" translatable="false">abc@gmail.com</string>
+    <string name="Fname" translatable="false">First Name</string>
+    <string name="Lname" translatable="false">Last Name</string>
+    <string name="cityIn" translatable="false">City</string>
+    <string name="editText4" translatable="false">078 64874152</string>
+    <string name="statement">We sent you a code verify your phone number</string>
+    <string name="statements" translatable="false">We sent you a code to verify your phone number</string>
+    <string name="st1" translatable="false">Don\'t recive OTP?</string>
+    <string name="statement1" translatable="false">Don\'t receive OTP?</string>
+    <string name="resend" translatable="false">Resend Code</string>
+    <string name="verifybtn">Verify and Continue</string>
+    <string name="header1">Edit User Details</string>
+    <string name="Fname1">First Name</string>
+    <string name="fnameinput">First name</string>
+    <string name="Lastname1">Last Name</string>
+    <string name="phoneinput">0715144989</string>
+    <string name="passinput">******</string>
+    <string name="passwordinput">******</string>
+    <string name="buttonsub">Submit</string>
+    <string name="buttoncancel">Cancel</string>
+    <string name="userheader">User Management</string>
+    <string name="Fnamet">Fname</string>
+    <string name="Lnamet">Lname</string>
+    <string name="Emailt">Email</string>
+    <string name="Phonet">Phone</string>
+    <string name="Cityt">City</string>
+    <string name="Actiont">Action</string>
+    <string name="editbtn">Edit</string>
+    <string name="deletebtn">Delete</string>
+    <string name="buttonin">CONTINUE</string>
+    <string name="testbtn">SignUp</string>
+    <string name="btnview">View</string>
+    <string name="btnadd">Add</string>
+    <string name="btnupdate">Update</string>
+    <string name="btndelete">Delete</string>
+    <string name="id">ID</string>
+    <string name="text8">ID</string>
+    <string name="btn5">LOG IN</string>
+    <string name="btn7">Create an account</string>
+    <string name="lmail">Email</string>
+    <string name="lpassword">Password</string>
+    <string name="lbtn">LOG IN</string>
+    <string name="fpassword">Forgot Password</string>
+    <string name="lmbtn">LOG IN</string>
+    <string name="edsearch">SEARCH</string>
+    <string name="d65btn">DELETE</string>
+    <string name="eduser">User Name</string>
+    <string name="uin">User Name</string>
+    <string name="usertxt">User Name</string>
+    <string name="btnsub">SUBMIT</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="search">SEARCH</string>
+    <string name="delete">DELETE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="adminpanel">ADMIN PANEL</string>
+    <string name="btnBook">BOOK NOW</string>
+    <string name="firstpage">wash with us </string>
+    <string name="rescar">best service</string>
+    <string name="sub">SUBMIT</string>
+    <string name="lusername">User name</string>
+</resources>
