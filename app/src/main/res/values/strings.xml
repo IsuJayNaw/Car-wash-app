@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Car Wash</string>
+    <string name="edst1">Edit Payment Details</string>
+    <string name="edst2">We accepted</string>
+    <string name="edholder">Card Holders Name</string>
+    <string name="edpsearch">SEARCH</string>
+    <string name="edcnum">Card Number</string>
+    <string name="eddate">Expire Date</string>
+    <string name="edcv">CVV</string>
+    <string name="edpbtn">EDIT</string>
+    <string name="pedbtn">DELETE</string>
 </resources>
