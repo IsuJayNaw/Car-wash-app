@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
-public class EditPayment extends AppCompatActivity {
+public class PaymentEdit extends AppCompatActivity {
 
     EditText holdername, cardnum, exdate,cvvnum ;
     Button edit, delete, search;
@@ -36,12 +36,12 @@ public class EditPayment extends AppCompatActivity {
                 List hname = pdbHandler.readAllInfo(holdername.getText().toString());
 
                 if (hname.isEmpty()){
-                    Toast.makeText(EditPayment.this, "No Details", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PaymentEdit.this, "No Details", Toast.LENGTH_SHORT).show();
                     holdername.setText(null);
                 }
                 else {
 
-                    Toast.makeText(EditPayment.this, "Details Found! Details: "+hname.get(0).toString(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PaymentEdit.this, "Details Found! Details: "+hname.get(0).toString(), Toast.LENGTH_SHORT).show();
                     holdername.setText(hname.get(0).toString());
                     cardnum.setText(hname.get(1).toString());
                     exdate.setText(hname.get(2).toString());
@@ -62,10 +62,10 @@ public class EditPayment extends AppCompatActivity {
 
                 Boolean status = pdbHandler.updateInfo(holdername.getText().toString(),cardnum.getText().toString(),exdate.getText().toString(),cvvnum.getText().toString());
                 if (status){
-                    Toast.makeText(EditPayment.this, "Details Updated", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PaymentEdit.this, "Details Updated", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    Toast.makeText(EditPayment.this, "Update Failed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PaymentEdit.this, "Update Failed", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -79,7 +79,7 @@ public class EditPayment extends AppCompatActivity {
                 PDBHandler pdbHandler = new PDBHandler(getApplicationContext());
                 pdbHandler.deleteInfo(holdername.getText().toString());
 
-                Toast.makeText(EditPayment.this, "Payment Details Deleted", Toast.LENGTH_SHORT).show();
+                Toast.makeText(PaymentEdit.this, "Payment Details Deleted", Toast.LENGTH_SHORT).show();
 
                 holdername.setText(null);
                 cardnum.setText(null);
