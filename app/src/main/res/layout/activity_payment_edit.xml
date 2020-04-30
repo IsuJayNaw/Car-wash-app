@@ -146,7 +146,7 @@
         app:layout_constraintEnd_toStartOf="@+id/pedbtn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edcv"
-        app:layout_constraintVertical_bias="0.109" />
+        app:layout_constraintVertical_bias="0.187" />
 
     <Button
         android:id="@+id/pedbtn"
@@ -164,6 +164,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/edpbtn"
         app:layout_constraintTop_toBottomOf="@+id/edcv"
-        app:layout_constraintVertical_bias="0.109" />
+        app:layout_constraintVertical_bias="0.187" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
