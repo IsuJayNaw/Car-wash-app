@@ -28,7 +28,7 @@ public class Payment extends AppCompatActivity {
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),EditPayment.class);
+                Intent i = new Intent(getApplicationContext(),PaymentEdit.class);
                 startActivity(i);
             }
         });
@@ -42,7 +42,7 @@ public class Payment extends AppCompatActivity {
                 long newID = pdbHandler.addInfo(holdername.getText().toString(),cardnum.getText().toString(),exdate.getText().toString(),cvvnum.getText().toString());
                 Toast.makeText(Payment.this, "Details Added. Payment Details ID: "+ newID, Toast.LENGTH_SHORT).show();
 
-                Intent i = new Intent(getApplicationContext(),EditPayment.class);
+                Intent i = new Intent(getApplicationContext(),PaymentEdit.class);
                 startActivity(i);
                 holdername.setText(null);
                 cardnum.setText(null);
