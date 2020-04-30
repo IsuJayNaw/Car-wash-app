@@ -157,7 +157,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
-        android:background="#191818"
+        android:background="#E82A2A"
         android:text="@string/pedbtn"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
